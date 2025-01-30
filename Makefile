@@ -1,11 +1,11 @@
 up: 
-	docker-compose up -d database drupal
+	docker compose up -d database drupal
 down: 
-	docker-compose down;
+	docker compose down;
 build: 
 	docker compose up -d --build database drupal;
 logs:
-	docker-compose logs -f drupal;
+	docker compose logs -f drupal;
 bash:
 	docker exec -it drupal-docker-drupal /bin/bash
 phpmyadmin:

@@ -57,9 +57,6 @@ services:
       - PMA_USER=${MYSQL_USER}
       - PMA_PASSWORD=${MYSQL_PASSWORD}
 
-volumes:
-  drupal: {}
-
 networks:
   drupal:
     name: ${APP_NAME}-net
