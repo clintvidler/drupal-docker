@@ -1,4 +1,4 @@
-FROM drupal:10
+FROM drupal:11
 
 ENV DEBIAN_FRONTEND=noninteractive
 
